@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>
+            Learning HTML
+        </title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>
+                 Nesting rules in HTML
+                 </h1>
+                 <p>
+                     In HTML, there are some of the elements that are best to nest in other elements. 
+                     We need to know about the rules when we nest element. 
+                     However, we need to know the use of the elements.
+                 </p>
+             </header>
+            <h2>
+                We need to know
+            </h2>
+            <ul>
+                <li>
+                <p>
+                    We cannot put the same elements inside each other. For example, we can't put <code>&lt;header&gt;</code> inside of <code>&lt;header&gt;</code> elements. However, we can use <code>&lt;header&gt;</code> inside of <code>&lt;main&gt;</code> elements.
+                </p>
+                </li>
+                <li>
+                    <i>
+                        Do not forget the end tag:
+                    </i>
+                    <p>
+                        We should always close the child elements tag before close the parents tag. It can cause error if the end tag of the child tag doesn't appear before the end tag of the parents elements.
+                    </p>
+                </li>
+                <li>
+                        
+                </li>
+            </ul>
+            <h2>
+                Don't do these:
+            </h2>
+            <ul>
+                <li>
+                    Nesting elements that are the same value such as <code>&lt;ul&gt;</code> inside of <code>&lt;ol&gt;</code>.
+                </li>
+                <li>
+                    Using <b>h1-h6</b> not in order. For example, you use h1 then jump into h3. 
+                </li>
+            </ul>
+            <h2>
+                Do these instead:
+            </h2>
+            <ul>
+                <li>
+                    When you want to nest <code>&lt;ol&gt;</code> inside of <code>&lt;ul&gt;</code>, we need to enter <code>&lt;li&gt;</code> after <code>&lt;ul&gt;</code> element. Then we can enter the ordered list, because it is allowed as a child of lists. 
+                </li>
+                <li>
+                    You should use <strong>h1-h6</strong> in order. For example, after using <code>&lt;h1&gt;</code>, we should use <code>&lt;h2&gt;</code>. 
+                </li>
+            </ul>
+            <footer>
+                <a href="rules.html">Back to list of rules </a>
+            </footer>
+        </main>
+    </body>
+</html>
