@@ -2,7 +2,6 @@
 
 In this repo, we are looking at how to learn html. 
 
-[Please click this link](learning-html/)
 ## Geting started
 
 This website is free for everyone who wants to learn HTML.
