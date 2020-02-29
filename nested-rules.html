@@ -14,7 +14,7 @@
                  Nesting rules in HTML
                  </h1>
                  <p>
-                     In HTML, there are some of the elements that are best to nest in other elements. We need to know about the rules when we nest element. However, we need to know the use of the elements.
+                     In HTML, there are elements which are best to nest in other elements. We need to know about the rules when we nest elements. However, we need to know the use of the elements.
                  </p>
              </header>
             <h2>
@@ -51,12 +51,30 @@
             </h2>
             <ul>
                 <li>
-                    When you want to nest <code>&lt;ol&gt;</code> inside of <code>&lt;ul&gt;</code>, we need to enter <code>&lt;li&gt;</code> after <code>&lt;ul&gt;</code> element. Then we can enter the ordered list, because it is allowed as a child of lists. 
+                    When you want to nest <code>&lt;ol&gt;</code> inside of <code>&lt;ul&gt;</code>, we need to enter <code>&lt;li&gt;</code> after <code>&lt;ul&gt;</code> element. However, we can't do that unless we use the list element first <code>&lt;li&gt;</code>. 
                 </li>
                 <li>
                     You should use <strong>h1-h6</strong> in order. For example, after using <code>&lt;h1&gt;</code>, we should use <code>&lt;h2&gt;</code>. 
                 </li>
             </ul>
+            <h3>
+                Examples:
+            </h3>
+            <p>
+                This is what we should do when we nest <code>&lt;ol&gt;</code> and <code>&lt;h3&gt;</code> inside of <code>&lt;ul&gt;</code>.
+            </p>
+            <blockquote>
+                    &lt;ul&gt;<br> 
+                    &lt;li&gt;<br> 
+                    &lt;h2&gt;Fruit&lt;/h2&gt;<br>
+                    &lt;ol&gt;<br>
+                    &lt;li&gt;Apples&lt;/li&gt;<br>
+                    &lt;li&gt;Bananas&lt;/li&gt;<br>
+                    &lt;li&gt;Coconut&lt;/li&gt;<br>
+                    &lt;/ol&gt;<br>
+                    &lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+            </blockquote>
             <footer>
                 <p>
                     ←
